@@ -7,5 +7,4 @@ def test_usd():
 def test_usd2():
     c1=Currency("USD")
     result = c1.get_money_after_purchase( "$100", "$50")
-    import pdb;pdb.set_trace()
     assert 'Total change: $50.0' == result
