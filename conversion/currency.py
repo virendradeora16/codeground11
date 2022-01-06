@@ -79,6 +79,7 @@ class Currency:
             return
         self.convert_values(deducted_money)
         print(f'Total change: {self.max_conversion_key()}{deducted_money}')
+        return f'Total change: {self.max_conversion_key()}{deducted_money}'
 
 
 
